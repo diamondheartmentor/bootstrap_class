@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-4 bg-success">Block 1</div>
+            <div class="col-8 bg-primary">Block 2</div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col">
+                <div class="row">
+                    <div class="col bg-warning p-2">Block 3</div>
+                </div>
+
+                <div class="row">
+                    <div class="col bg-primary p-1">Block 4</div>
+                    <div class="col bg-info">Block 5</div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="col bg-danger p-4">Block 6</div>
+            </div>
+
+
+            <div class="col">
+                <div class="row bg-info">Block 7</div>
+                <div class="row bg-warning">Block 8</div>
+                <div class="row bg-success">Block 9</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
